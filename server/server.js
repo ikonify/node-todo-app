@@ -75,7 +75,6 @@ app.delete('/todos/:id', (req, res) => {
         console.log(err);
     });
 
-    // remove todo by id - success, if no doc send 404, if error send 400 with empty body
 });
 
 app.listen(port, () => {
